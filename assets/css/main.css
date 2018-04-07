@@ -1,0 +1,61 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+@font-face {
+    font-family: Toronto;
+    src: url(assets/fonts/toronto.ttf);
+}
+
+
+body {
+	background-color: #000000;
+	font-family: Space-Mono, monospace;
+	color:#fff;
+
+}
+
+a {
+	color:#D3D3D3;
+}
+
+/*nav */
+
+.nav {
+	list-style-type: none;
+}
+
+.nav li{
+	text-align: center;
+}
+
+.nav ul {
+	display: inline;
+}
+
+/*intro stuff*/
+
+.intro {
+	text-align: center;
+	margin-top:2%;
+}
+	
+.intro hr {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.episodes {
+	text-align: center;
+	
+}
+
+.redacted {
+	color:#000000;
+}
+
+/*
+margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    */
